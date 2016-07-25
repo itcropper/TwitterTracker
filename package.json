@@ -1,0 +1,43 @@
+{
+  "name": "twittertracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "bluebird": "^3.4.1",
+    "del": "^2.2.1",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-bower": "^0.0.13",
+    "gulp-concat": "^2.6.0",
+    "gulp-filter": "^4.0.0",
+    "gulp-imagemin": "^3.0.2",
+    "gulp-less": "^3.1.0",
+    "gulp-load-plugins": "^1.2.4",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.4",
+    "http": "0.0.0",
+    "less-middleware": "^2.2.0",
+    "main-bower-files": "^2.13.1",
+    "mongoose": "^4.5.5",
+    "node-twitter-api": "^1.7.4",
+    "secret": "^1.0.2",
+    "socket.io": "^1.4.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itcropper/TwitterTracker.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itcropper/TwitterTracker/issues"
+  },
+  "homepage": "https://github.com/itcropper/TwitterTracker#readme"
+}
